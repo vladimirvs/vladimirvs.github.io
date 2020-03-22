@@ -1,3 +1,8 @@
+---layout: post
+title:  "Installing Jekyll to Github Pages"
+date:   2020-03-22 13:47:42 +0000
+categories: thoughts
+---
 I think every human's personality can be viewed from a tridimensional perspective.
 The dimensions are:
 
