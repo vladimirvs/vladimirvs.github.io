@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Installing Jekyll to Github Pages"
-date:   2020-03-22 13:47:42 +0000
+title: "Personality"
+date: 2020-03-22 13:47:42 +0000
 categories: thoughts
 ---
 
@@ -19,7 +19,7 @@ circumstances. Luck not being a quality cannot be cultivated and is not constant
 
 Therefore posessing only 2 of the qualities can lead to high achivement only sporadically.
 
-The ratio of these qualities could be seen as a polar diagram. 
+The ratio of these qualities could be seen as a polar diagram.
 
 Examples
 
