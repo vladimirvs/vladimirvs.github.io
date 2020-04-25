@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 ---
 
 <ul>
@@ -13,10 +13,3 @@ layout: home
     </li>
   {% endfor %}
 </ul>
-
-<script src="/js/jquery.min.js"></script>
-
-{% include comments.html element=".post-content" github_account="jhvanderschee/jekyllcodex" require_cookie_consent="true" %}
-
-</body>
-</html>
