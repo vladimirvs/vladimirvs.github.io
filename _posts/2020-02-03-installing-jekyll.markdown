@@ -3,6 +3,7 @@ layout: post
 title: "Installing Jekyll to Github Pages"
 date: 2020-02-03 21:55:42 +0000
 categories: jekyll
+comment_issue_id: 1
 ---
 
 I am new to both Ruby and Jekyll. Also to Github Pages. Here's a short guide for people like me who want
