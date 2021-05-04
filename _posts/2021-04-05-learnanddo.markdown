@@ -12,6 +12,10 @@ Realizing how stupid one is, is of great value because it means 2 things - 1 is 
 
 Reading "news", you rarely feel stupid. In fact, it's the opposite - when you are reading news you are feeling much smarter than the protagonists. You see how people get into "stupid" accidents, you see how people get to be drug addicts, how people are homeless, are hit by war - and you feel so comfortable, so much smarter and thinking that those things could never happen to you. And so on... That's why, by reading news to become smarter, you are not becoming smarter. Although specialized news - science, economy, some specific topics could help you become smarter. 
 
+But keep in mind this quote which I once read in my father's diary: 
+
+>If you are stupid, you are stupid once, but if you tell anyone that you are stupid you are stupid twice.
+
 
 
 *If something is easy to do, it is not worth doing it.*
