@@ -30,6 +30,7 @@ twitter_username: vladimirvs
 github_username: vladimirvs
 
 # Build settings
+future: true
 theme: minima
 plugins:
   - jekyll-feed
