@@ -1,0 +1,65 @@
+baseURL = "https://vladimirvs.github.io/"
+languageCode = "en-us"
+title = "Lessons 4 Devs"
+theme = "PaperMod"
+buildFuture = true
+
+[params]
+  description = "A developer blog about software engineering, productivity, and lessons learned in the field."
+  author = "Vladimir"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowShareButtons = false
+  defaultTheme = "auto"
+
+  [params.homeInfoParams]
+    Title = "Lessons 4 Devs"
+    Content = "A developer blog about software engineering, productivity, and lessons learned in the field."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/vladimirvs"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/vladimirvs"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archive"
+    url = "/archives/"
+    weight = 20
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
+    lineNumbersInTable = true

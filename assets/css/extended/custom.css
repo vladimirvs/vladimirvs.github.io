@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap");
+
+/* ── Accent: neutral steel blue ── */
+:root {
+  --primary: #4a6fa5;
+  --secondary: #4a6fa5;
+  --theme: #fff;
+  --entry: #fff;
+  --border: #e5e5e5;
+}
+
+/* Dark mode overrides — PaperMod uses .dark class on <body> */
+.dark {
+  --primary: #7da4d4;
+  --secondary: #7da4d4;
+  --theme: #1a1a1e;
+  --entry: #242428;
+  --border: #333;
+}
+
+body {
+  font-family:
+    "Source Sans 3",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+/* Headings — inherit theme text colour so dark mode works */
+.post-title,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lora", Georgia, serif;
+  color: inherit;
+}
+
+/* Logo */
+.logo a {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  color: inherit;
+}
+
+/* Post list cards */
+.post-entry {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
+}
+.post-entry:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Blockquote */
+.post-content blockquote {
+  border-left: 4px solid var(--primary);
+  background: rgba(74, 111, 165, 0.06);
+  border-radius: 0 6px 6px 0;
+}
+
+/* Inline code */
+.post-content code {
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  font-size: 0.9em;
+}
+.post-content pre code {
+  padding: 0;
+}

@@ -1,13 +1,11 @@
 ---
-layout: post
 title: "Persistence"
-date: 2020-09-21 12:08:42 +0000
-categories: thoughts
-comment_issue_id: 3
+date: 2020-09-21T12:08:42+00:00
+categories: ["thoughts"]
 ---
 
 This is the difference between a successful endeavor and a not so much one. Persistence of the author. Persistence is one of the cornerstone personality traits that can guarantee success in any area.
-Persistence is the decisive quality when the others are present in more or less sufficient quantity. Imagine - 2 persons embarking on similar projects. 
+Persistence is the decisive quality when the others are present in more or less sufficient quantity. Imagine - 2 persons embarking on similar projects.
 
 **Person O** - lacks sufficient persistence. They can work on the project for a couple of days, but then either gradually or suddenly loose interest or find excuses to pursue another project.
 
