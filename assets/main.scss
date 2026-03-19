@@ -1,0 +1,211 @@
+---
+---
+
+// Google Fonts - loaded before everything else so it appears first in output
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap");
+
+// Override Minima variables before importing the theme
+$brand-color: #5c6bc0;
+$text-color: #2c2c2c;
+$background-color: #f9f9f7;
+$grey-color: #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark: darken($grey-color, 25%);
+
+@import "minima";
+
+// ─── Typography ──────────────────────────────────────────────────────────────
+
+body {
+  font-family:
+    "Source Sans 3",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+// ─── Header ──────────────────────────────────────────────────────────────────
+
+.site-header {
+  border-top: 4px solid $brand-color;
+  border-bottom: 1px solid $grey-color-light;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.site-title {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+  &,
+  &:visited {
+    color: $brand-color;
+  }
+  &:hover {
+    color: darken($brand-color, 12%);
+    text-decoration: none;
+  }
+}
+
+.site-nav .page-link {
+  font-weight: 500;
+  color: $text-color;
+  &:hover {
+    color: $brand-color;
+  }
+}
+
+// ─── Home / Post list ────────────────────────────────────────────────────────
+
+.home {
+  padding-top: 1rem;
+}
+
+.post-list-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $grey-color;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid $grey-color-light;
+  padding-bottom: 0.5rem;
+}
+
+.post-list {
+  list-style: none;
+  margin-left: 0;
+
+  > li {
+    background: #fff;
+    border: 1px solid #e8e8e4;
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.25rem;
+    transition:
+      box-shadow 0.2s ease,
+      transform 0.15s ease;
+
+    &:hover {
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+    color: #555;
+    font-size: 0.97rem;
+  }
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $grey-color;
+}
+
+.post-link {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  display: block;
+  margin: 0.2rem 0 0.4rem;
+
+  &:hover {
+    color: $brand-color;
+    text-decoration: none;
+  }
+}
+
+// ─── Post content ────────────────────────────────────────────────────────────
+
+.post-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid $grey-color-light;
+}
+
+.post-title {
+  font-size: 2.2rem;
+  line-height: 1.25;
+  color: #1a1a2e;
+  margin-bottom: 0.4rem;
+}
+
+.post-content {
+  font-size: 1.03rem;
+
+  p {
+    margin-bottom: 1.5em;
+  }
+
+  a {
+    color: $brand-color;
+    &:hover {
+      color: darken($brand-color, 12%);
+    }
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid $grey-color-light;
+  }
+
+  blockquote {
+    border-left: 4px solid $brand-color;
+    background: rgba(92, 107, 192, 0.05);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0 6px 6px 0;
+    color: #555;
+    font-style: italic;
+    margin-left: 0;
+  }
+
+  code {
+    background: #efefec;
+    padding: 0.15em 0.45em;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  pre code {
+    background: none;
+    padding: 0;
+  }
+
+  pre {
+    border-radius: 8px;
+  }
+}
+
+// ─── Footer ──────────────────────────────────────────────────────────────────
+
+.site-footer {
+  background: #fff;
+  border-top: 1px solid $grey-color-light;
+  color: $grey-color;
+
+  a {
+    color: $brand-color;
+  }
+}
