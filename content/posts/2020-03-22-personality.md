@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Personality"
-date: 2020-03-22 13:47:42 +0000
-categories: thoughts
-comment_issue_id: 2
+date: 2020-03-22T13:47:42+00:00
+categories: ["thoughts"]
 ---
 
 I think every human's personality can be viewed from a tridimensional perspective.
